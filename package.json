@@ -1,0 +1,28 @@
+{
+  "name": "counterapp",
+  "version": "1.0.0",
+  "description": "Have functionality to increment and decrement count",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compileCSS": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch",
+    "dev":"vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rishi-Raj-Anand/counterApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Rishi-Raj-Anand/counterApp/issues"
+  },
+  "homepage": "https://github.com/Rishi-Raj-Anand/counterApp#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.7",
+    "tailwindcss": "^4.1.7",
+    "vite": "^6.3.5"
+  }
+}
